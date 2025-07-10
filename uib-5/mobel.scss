@@ -12,6 +12,11 @@ header{
     align-items: center;
 
 }
+.header_artikel {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
 .header_button {
     height: fit-content;
     border: none;

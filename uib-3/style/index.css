@@ -1,0 +1,36 @@
+/* 
+module
+mixins
+maps
+loops
+*/
+h1 {
+  color: lightblue;
+}
+
+h2 {
+  color: lightblue;
+}
+
+p {
+  font-size: 2.1rem;
+  color: lightblue;
+}
+
+li {
+  color: lightblue;
+}
+
+label {
+  color: lightblue;
+}
+
+.product-card {
+  border: 3px solid lightblue;
+}
+
+.employee-card {
+  border: 3px solid lightblue;
+}
+
+/*# sourceMappingURL=index.css.map */

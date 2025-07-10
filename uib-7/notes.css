@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root{
+    font-size: 62.55;
+}
+body{
+    background-color: rgb(58, 45, 45);
+}
+main{
+    margin: 2rem 3rem;
+}
+h1{
+    padding-bottom: 1.5rem;
+    color: white;
+    border-bottom: 2px solid;
+    width: 25rem;
+    font-size: 40px;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+   
+}
+li{
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+}
+p{
+    color: white;
+    margin-top: 20px;
+}
+button{
+    margin-top: 10px;
+    border: 1px solid green;
+    background-color: gray;
+    border-radius: 5px;
+    padding: 3px;
+}

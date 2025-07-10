@@ -1,0 +1,22 @@
+div {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("https://images.pexels.com/photos/1252983/pexels-photo-1252983.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */ }
+
+button {
+  width: fit-content;
+  background-color: green;
+  transition: 500ms;
+  border-radius: 5px;
+  font-size: 20px; }
+  button:hover {
+    transform: scale(1.1);
+    background-color: yellow; }
+
+/*# sourceMappingURL=background.css.map */

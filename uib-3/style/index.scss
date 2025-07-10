@@ -1,0 +1,40 @@
+$mainColor : lightblue;
+$borderWidth : 3px;
+
+/* 
+module
+mixins
+maps
+loops
+*/
+
+h1 {
+    color : $mainColor;
+}
+
+
+h2 {
+    color : $mainColor;
+}
+
+p {
+    font-size : 2.1rem;
+    color : $mainColor;
+}
+
+
+li {
+    color : $mainColor;
+}
+
+label{
+    color : $mainColor;
+}
+
+.product-card {
+    border : $borderWidth solid $mainColor;
+}
+
+.employee-card {
+    border : $borderWidth solid $mainColor;
+}

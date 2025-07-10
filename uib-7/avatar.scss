@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+}
+$primary-color: rgb(24, 24, 95);
+$second-color: rgb(238, 238, 37);
+body {
+  background-color: #fff;
+  color: #232536;
+  line-height: 1.6;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+  background-color: $primary-color;
+  color: white;
+  h1 {
+    font-size: 2.4rem;
+    color: white;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    ul {
+      display: flex;
+      list-style: none;
+      gap: 2rem;
+      li {
+        font-weight: bold;
+        color: white;
+        cursor: pointer;
+      }
+    }
+    .subscribe {
+      padding: 0.8rem 1.6rem;
+      background-color: white;
+      color: black;
+      border: none;
+      font-weight: bold;
+      font-size: 1.6rem;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  }
+}
+.Featured {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  padding: 4rem;
+  div {
+    flex: 1;
+  }
+  h3 {
+    color: $primary-color;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+  h2 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  p {
+    margin-bottom: 1.5rem;
+    color: #6D6E76;
+  }
+  .read-more {
+    background-color: $second-color;
+    color: black;
+    font-weight: bold;
+    font-size: 1.4rem;
+    border: none;
+    padding: 0.8rem 1.6rem;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+}
+.All-posts {
+  padding: 4rem;
+  .All-posts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  h2 {
+    font-size: 2.8rem;
+    margin-bottom: 3rem;
+  }
+  .post-card {
+    display: flex;
+    gap: 2rem;
+    background-color: #F4F0F8;
+    border-radius: 1.6rem;
+    overflow: hidden;
+    min-height: 200px;
+    img {
+      width: 250px;
+      height: 100%;
+      object-fit: cover;
+      flex-shrink: 0;
+    }
+    .post-content {
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex: 1;
+      span {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: $primary-color;
+        text-transform: uppercase;
+      }
+      h3 {
+        margin: 1rem 0;
+        font-size: 2.2rem;
+        font-weight: 700;
+        line-height: 1.4;
+        color: #232536;
+      }
+      p {
+        font-size: 1.6rem;
+        color: #6D6E76;
+      }
+    }
+  }
+  .pagination {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 4rem;
+    a {
+      text-decoration: none;
+      color: $primary-color;
+      font-weight: bold;
+      font-size: 1.6rem;
+    }
+  }
+}

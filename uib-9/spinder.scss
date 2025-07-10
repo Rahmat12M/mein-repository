@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root {
+    font-size: 62.5%;
+}
+p {
+    padding: 1em;
+    font-size: 2vh;
+}
+i {
+    font-size: 3em;
+    color: rgb(192, 192, 78);
+    margin: 0.5vh 2vh;
+}
+li::before {
+    content: "\f007";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin: 1em;
+}
+li {
+    margin: 1em;
+    list-style: none;
+    font-size: 2vh;
+}
+section {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    border: 3px solid rgb(247, 239, 239);
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    animation: container 0.8s;
+    animation-iteration-count: infinite;
+
+}
+// @keyframes spinner {
+//     from {
+//         transform: rotate(0deg);
+//     }
+//     to {
+//         transform: rotate(360deg);
+//     }
+
+// }
+@keyframes container {
+    0% {
+        // transform: rotate(0deg);
+        border-color: rgb(124, 102, 102);
+    }
+    50%{
+        border-style:outset;
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

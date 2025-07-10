@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+}
+.Nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    list-style: none;
+}
+main {
+    margin: 5rem;
+}
+h1 {
+    color: rgb(185, 172, 153);
+    line-height: 30px;
+}
+.bold {
+    font-size: 40px;
+    color: black;
+}
+.digital-pro {
+    width: 50px;
+}
+
+.Drei-img {
+    width: 300px;
+}
+.contener{
+    display: flex;
+    padding: 1rem;
+}
+.img-beschreibung {
+    padding: 1rem;
+
+}
+.img-beschreibung p {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+.img-beschreibung h2 {
+    color: rgb(175, 164, 150);
+    font-size: 25px;
+}
+.img-beschreibung a img {
+    width: 25px;
+    height: 10px;
+}
+.img-beschreibung a {
+    text-decoration: none;
+    padding: 5px;
+}
+.next-button img {
+    width: 25px;
+    height: 15px;
+}
+.next-button {
+    list-style: none;
+    display: flex;
+    gap:10px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(48, 39, 39);
+    color: white;
+    padding-bottom: 2rem;
+}
+.footer-media-zeichen img {
+    width: 15px;
+    margin: 1rem;
+    
+}
+.footer-media-zeichen {
+    display: flex;
+    list-style: none;
+    /* margin: 1rem; */
+}
+.information {
+    list-style: none;
+}

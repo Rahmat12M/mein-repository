@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+}
+td{
+    font-size: 2rem;
+    padding: 1rem;
+    border: none;
+    border: 1px solid;
+    height: 20px;
+
+}
+
+body{
+    margin: 5rem;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid red;
+}
+tbody tr:nth-of-type(odd) {
+    background-color: yellow;
+}
+tbody tr:nth-of-type(even) {
+    background-color: green;
+}
+th{
+    font-size: 2rem;
+    border: 1px solid;
+    width: 60px;
+    height: 20px;
+}
+thead tr {
+    background-color: red;
+}

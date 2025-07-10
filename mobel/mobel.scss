@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-size: 62.5%;
+}
+body {
+    font-size: 14px;
+
+}
+main {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header_img {
+    width: 3em;
+}
+.header_button div {
+    border: 2px solid;
+    width: 3em;
+    margin: 3px;
+}
+.header_button {
+    height: fit-content;
+    border: none;
+}
+.head_div {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   align-items: center;
+}
+header {
+    display: flex;
+    align-items: center;
+}
+.projeckt_img {
+    width: 19.5em;
+    border-radius: 10px;
+    
+}
+.bold {
+    font-size: bold;
+    width: 200px;
+}
+.div2 ul {
+    display: flex;
+
+}
+.div2 ul li {
+    list-style: none;
+    border: 2px solid;
+    margin: 0.5em;
+    width: 2em;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.socialmedia_zeichen {
+    width: 1em;
+}
+.my_skills {
+    border: 2px solid;
+    width: 7em;
+    height: 7em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+.my_skills img {
+    width: 2em;
+    margin-bottom: 2em;
+}
+.js_zeichen {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20em;
+}
+.zeichen {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20em;
+    justify-content: center;
+}
+.my_experience {
+    border: 1px solid;
+    border-radius: 19px;
+    width: 20em;
+    height: 22em;
+    background-color: rgb(37, 31, 31);
+    color: white;
+    justify-content: center;
+    padding: 1em;
+}
+// .my_experience h2::before {
+//     content: url(https://cdn-icons-png.flaticon.com/128/300/300221.png);
+//     width: 5px;
+// }
+.my_experience div img {
+    width: 1.3em;
+    height: 1.3em;
+    margin: 1.9em 1em;
+}
+.my_experience div h2 {
+    font-size: 18px;
+    margin: 1em;
+}
+.my_experience div {
+    display: flex;
+}
+.my_experience:nth-of-type(2) {
+    background-color: rgb(70, 57, 57);
+}
+.about_me {
+    width: 20em;
+    border: 1px solid;
+    margin: 2em;
+}
+.about_me img {
+    width: 19.5em;
+}
+.about_me h2 {
+    margin: 1em;
+}
+.my_projeckt {
+    width: 20em;
+    background-color: black;
+    color: white;
+    margin: 2em;
+    border-radius: 10px;
+    padding: 0 0.5em;
+}
+.my_projeckt h2 {
+    margin: 1em 0em;
+}
+.my_testimonial_card {
+    width: 20em;
+    margin: 1em;
+    height: 25em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.my_testimonial_card img {
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+}
+.my_testimonial_card p {
+    margin: 1.1em;
+}
+.my_testimonial_card h2{
+    margin: 1.1em;
+}
+.linie {
+    border: 1px solid;
+    width: 7em;
+}
+.my_testimonial_card:nth-of-type(2) {
+    background-color: black;
+    color: white;
+}
+.input_text {
+    width: 20em;
+    height: 4em;
+    margin: 0.8em;
+    border: 2px solid;
+    border-radius: 2px;
+
+}
+.input_text1 {
+    width: 20em;
+    height: 8em;
+    margin: 0.53m;
+    border: 2px solid;
+}
+button{
+    width: 8em;
+    height: 4em;
+    margin-top: 1em;
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+
+}
+.social_media ul li img {
+    list-style: none;
+    border: 2px solid;
+    margin: 0.5em;
+    width: 3em;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1px;
+    border-radius: 10px;
+    padding: 0.5em;
+}
+.social_media ul li {
+    list-style: none;
+}
+.social_media ul {
+    display: flex;
+}
+.input:nth-last-child{
+    height: 5em;
+}
+.input_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+label{
+    width: 20em
+}

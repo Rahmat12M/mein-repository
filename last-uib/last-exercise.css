@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+:root {
+  font-size: 62.5%; }
+
+body {
+  background-image: url("https://cdn-icons-png.flaticon.com/128/11211/11211854.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 3em; }
+
+.logo {
+  width: 6vh;
+  height: 6vh;
+  margin: 1vh 3vh; }
+
+.container {
+  display: flex;
+  gap: 1em;
+  font-size: 2em;
+  margin: 1em;
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+li li {
+  display: none; }
+
+li a {
+  text-decoration: none; }
+
+li:hover li {
+  display: block; }
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+
+section {
+  display: flex;
+  flex-wrap: wrap; }
+
+h1 {
+  font-size: 30px;
+  margin: 2.5em; }
+
+div {
+  background-color: yellow;
+  width: 25vw;
+  aspect-ratio: 3/4;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 1em; }
+
+img {
+  width: 23vw;
+  aspect-ratio: 3/4;
+  margin-top: 0.5vw; }
+
+p {
+  font-size: 3vw;
+  margin: 0.5em auto; }
+
+/*# sourceMappingURL=last-exercise.css.map */

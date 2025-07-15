@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+:root {
+  font-size: 62.5%; }
+
+body {
+  background-color: #b6adad; }
+
+.article {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center; }
+
+h1 {
+  grid-column: 1/-1;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 2rem; }
+
+p {
+  font-size: 20px;
+  line-height: 3rem; }
+
+/*# sourceMappingURL=article.css.map */

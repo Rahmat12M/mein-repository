@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+:root {
+  font-size: 62.5%; }
+
+main {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: #8fafaf;
+  height: 100vh; }
+
+div {
+  width: 200px; }
+
+img {
+  width: 90px; }
+
+h1 {
+  text-align: center; }
+
+/*# sourceMappingURL=gallery.css.map */

@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-size: 62.5%;
+}
+main {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: rgb(143, 175, 175);
+    height: 100vh;
+}
+div{
+    width: 200px;
+    
+
+}
+img{
+    width:90px;
+}
+h1 {
+    text-align: center;
+}

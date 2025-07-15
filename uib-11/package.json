@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "style":"sass --watch ./uib-11/card.scss:./uib-11/card.css",
+    "style":"sass --watch card.scss:card.css",
+    "article":"sass --watch article.scss:article.css",
+    "gallery":"sass --watch gallery.scss:gallery.css",
+    
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "sass": "^1.89.2"
-  }
+  "license": "ISC"
 }

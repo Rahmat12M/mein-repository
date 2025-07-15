@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-size: 62.5%;
+}
+body{
+    background-color: rgb(182, 173, 173);
+}
+.article {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    // grid-template-columns: repeat(3, 33%); به صورت دستی به سه قسمت تقسیم میکنیم
+    // grid-template-columns: repeat(auto-fit, 300px); هز سطر به اندازه ۳۰۰ تنظیم میشود
+    // grid-template-columns: repeat(3, minmax(300px,700px));هز سطر بین ۳۰۰ تا ۷۰۰ کشیده میشود 
+    // grid-template-columns: 100px 33% 30vw minmax() ifr auto;هرکدام را جداگانه سایز بدهیم
+    justify-content: center;
+
+}
+h1{
+    grid-column: 1/-1;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 2rem;
+}
+p{
+    font-size: 20px;
+    line-height: 3rem;
+}

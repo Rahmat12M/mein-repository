@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+:root {
+  font-size: 62.5%; }
+
+main {
+  background-color: #805757;
+  min-height: 100vh; }
+
+label {
+  font-size: 3vh; }
+
+input {
+  font-size: 3vh;
+  padding: 0.5vh; }
+
+/*# sourceMappingURL=form.css.map */

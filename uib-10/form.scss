@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-size: 62.5%;
+}
+$maincolor: rgb(157, 206, 157);
+$secandcolor: rgb(128, 87, 87);
+main {
+    background-color: $secandcolor;
+    min-height: 100vh;
+}
+label{
+    font-size: 3vh;
+
+}
+input {
+    font-size: 3vh;
+    padding: 0.5vh;
+}

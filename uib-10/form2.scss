@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-size: 62.5%;
+}
+$maincolor:green;
+$secandcolor:gray; 
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+
+}
+label {
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+}
+input {
+    width: 10em;
+    font-size: 2em;
+    margin: 0.3em 0;
+}
+h1 {
+    margin: 3em 5em;
+}
+legend {
+    font-size: 2em;
+    margin: 0.2em;
+}
+.button1 {
+    background-color: $maincolor;
+    width: 6em;
+    height: 2em;
+    font-size: 2em;
+    display: block;
+    margin: auto;
+}
+fieldset {
+    background-color: white;
+}
+.datum {
+    display: flex;
+}
